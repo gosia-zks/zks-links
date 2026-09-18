@@ -8,5 +8,17 @@
       "source": "/regulamin-sprzedazy-uslug",
       "destination": "/regulamin-sprzedazy-uslug.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/polityka-prywatnosci/",
+      "destination": "/polityka-prywatnosci",
+      "permanent": true
+    },
+    {
+      "source": "/regulamin-sprzedazy-uslug/",
+      "destination": "/regulamin-sprzedazy-uslug",
+      "permanent": true
+    }
   ]
 }
