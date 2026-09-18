@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/polityka-prywatnosci",
+      "destination": "/polityka-prywatnosci.html"
+    },
+    {
+      "source": "/regulamin-sprzedazy-uslug",
+      "destination": "/regulamin-sprzedazy-uslug.html"
+    }
+  ]
+}
