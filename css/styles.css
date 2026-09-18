@@ -304,7 +304,30 @@ h1 {
 
   .links-button {
     font-size: 15px;
-    padding: 12px 20px 10px;
+    padding: 16px 24px 14px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+  }
+
+  .links-profile-pic {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+
+  .links-name {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+
+  .links-description {
+    margin-bottom: 32px;
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  .links-flex {
+    width: 100%;
   }
 }
 
@@ -316,16 +339,29 @@ h1 {
 
   .links-name {
     font-size: 22px;
+    margin-bottom: 12px;
   }
 
   .links-description {
     font-size: 14px;
-    line-height: 130%;
+    line-height: 140%;
+    margin-bottom: 28px;
   }
 
   .links-button {
     font-size: 14px;
-    padding: 12px 15px 10px;
-    margin-bottom: 20px;
+    padding: 14px 20px 12px;
+    margin-bottom: 14px;
+    border-radius: 50px;
+  }
+
+  .links-profile-pic {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 16px;
+  }
+
+  .links-section {
+    padding-top: 30px;
   }
 }
