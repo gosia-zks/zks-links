@@ -1,0 +1,331 @@
+/* ===================================
+   Consolidated CSS for Links Page
+   (z.kazdej.strony - linki)
+   =================================== */
+
+/* ===== NORMALIZE & BASE STYLES ===== */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #fbf4ef;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+
+/* ===== WEBFLOW CLASSES ===== */
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.w-container:before,
+.w-container:after {
+  content: " ";
+  display: table;
+}
+
+.w-container:after {
+  clear: both;
+}
+
+.w-layout-vflex {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.w-button {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: #3898EC;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+/* ===== CUSTOM COLORS (Z KS) ===== */
+:root {
+  --navy: #000437;
+  --orange: #f67b2e;
+  --blue: #1f739f;
+  --powder-pink: #f3d8db;
+  --steel-blue: #cbe0f5;
+  --magenta: #d90047;
+  --warm-white: snow;
+}
+
+/* ===== LINKS PAGE SPECIFIC ===== */
+.links-bg {
+  background-color: #fbf4ef;
+  transition: background-color 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.links-section {
+  padding-top: 40px;
+}
+
+._1440 {
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.content {
+  flex-wrap: nowrap;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  position: relative;
+}
+
+.content.omnie {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.links-flex {
+  align-items: center;
+}
+
+.links-profile-pic {
+  outline-offset: 0px;
+  border-radius: 200px;
+  outline: 1px solid #6a0101;
+}
+
+.link-instagram {
+  text-decoration: none;
+}
+
+.links-name {
+  color: #f0692f;
+  margin-bottom: 0;
+  font-family: Silka, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.links-description {
+  color: #6a0101;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Silka, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.links-button {
+  color: #6a0101;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #6a0101;
+  border-radius: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 14px 24px 12px;
+  font-family: Silka, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  transition: background-color 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links-button:hover {
+  color: #fff;
+  background-color: #f0692f;
+  border-color: #6a0101;
+}
+
+.links-button.hidden-link {
+  display: none;
+}
+
+/* ===== TEXT SPANS ===== */
+.text-span-18 {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.text-span-19 {
+  font-weight: 500;
+}
+
+.text-span-20 {
+  text-decoration: underline;
+}
+
+.text-span-21 {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* ===== FONT FACES ===== */
+@font-face {
+  font-family: Silka;
+  src: url('../fonts/silka-bold-webfont.woff') format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Silka;
+  src: url('../fonts/silka-semibold-webfont.woff') format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Silka;
+  src: url('../fonts/silka-black-webfont.woff') format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Silka;
+  src: url('../fonts/silka-regular-webfont.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Silka;
+  src: url('../fonts/silka-medium-webfont.woff') format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Silka;
+  src: url('../fonts/silka-light-webfont.woff') format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== RESPONSIVE ===== */
+@media screen and (max-width: 991px) {
+  .w-container {
+    max-width: 728px;
+  }
+
+  .links-description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .w-row,
+  .w-container .w-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .links-button {
+    font-size: 15px;
+    padding: 12px 20px 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .w-container {
+    max-width: none;
+    padding: 0 15px;
+  }
+
+  .links-name {
+    font-size: 22px;
+  }
+
+  .links-description {
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .links-button {
+    font-size: 14px;
+    padding: 12px 15px 10px;
+    margin-bottom: 20px;
+  }
+}
